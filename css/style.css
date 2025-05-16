@@ -1,0 +1,88 @@
+body{
+    /*background: rgb(63,94,251);*/
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(127,86,202,1) 87%);
+}
+h1{
+    font-family: 'Pokemon Solid';
+    letter-spacing : 10px;
+    text-shadow: 0 0 3px white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 15px; 
+}
+h3{
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.board{
+    border: 2px solid black;
+    text-align: center;
+    margin: 55px;
+    padding: 20px;
+}
+
+.board p{
+    color:aliceblue;
+    font-size: 30px;
+}
+.board .VS{
+    height: 175px;
+    width: 175px;
+}
+.nom{
+    cursor: pointer;
+
+}
+#attaque{
+    font-weight: bold;
+    background-color: rgb(223, 26, 26);
+    text-transform: uppercase;
+}
+.reset{
+    color:aliceblue;
+    background-color: rgba(155, 80, 216, 0.589);
+}
+
+.separateur{
+    margin: 10px auto;
+    border-bottom: 2px solid black;
+    width: 33%;
+}
+.ecran{
+    height: auto;
+    width: 80%;
+    margin: 55px auto;
+    padding: 15px;
+    border: 3px solid black;
+}
+.ecran p {
+    font-weight: bold;
+}
+.carte1 {
+    margin: auto;
+    padding: 15px 0px;
+    border-top: 2px solid black;
+    width: 45%
+}
+.carte2 {
+    margin: auto;
+    padding: 15px 0px;
+    border-top: 2px solid black;
+    width: 45%
+}
+.versus{
+    margin: auto;
+    font-size: 95px;
+}
+/* .joueur1 {
+    margin: auto 30px;
+    padding: 15px 0px;
+    border: 2px solid black;
+    width: 25%
+}
+.joueur2 {
+    margin: auto 30px;
+    padding: 15px 0px;
+    border: 2px solid black;
+    width: 25%
+} */
